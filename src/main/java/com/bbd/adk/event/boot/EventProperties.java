@@ -1,29 +1,3 @@
-/*
- * www.yiji.com Inc.
- * Copyright (c) 2011 All Rights Reserved.
- *                    _ooOoo_
- *                   o8888888o
- *                   88" . "88
- *                   (| -_- |)
- *                   O\  =  /O
- *                ____/`---'\____
- *              .'  \\|     |//  `.
- *             /  \\|||  :  |||//  \
- *            /  _||||| -:- |||||-  \
- *            |   | \\\  -  /// |   |
- *            | \_|  ''\---/''  |   |
- *            \  .-\__  `-`  ___/-. /
- *          ___`. .'  /--.--\  `. . __
- *       ."" '<  `.___\_<|>_/___.'  >'"".
- *      | | :  `- \`.;`\ _ /`;.`/ - ` : | |
- *      \  \ `-.   \_ __\ /__ _/   .-` /  /
- *  ======`-.____`-.___\_____/___.-`____.-'======
- *                     `=---='
- *  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *           佛祖保佑       永无BUG
- */
-
-package com.bbd.adk.event.boot;
 //
 //                       _oo0oo_
 //                      o8888888o
@@ -51,6 +25,7 @@ package com.bbd.adk.event.boot;
 //
 //
 //
+package com.bbd.adk.event.boot;
 import org.springframework.beans.factory.BeanClassLoaderAware;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.boot.context.properties.ConfigurationProperties;
