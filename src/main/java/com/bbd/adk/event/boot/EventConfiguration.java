@@ -65,9 +65,8 @@ public class EventConfiguration implements ApplicationContextAware, Initializing
         this.applicationContext = applicationContext;
     }
 
-    //-FIXME 下次版本迭代时，需要将这部分代码重构移至common包，合并容器异步处理以及事件总线异步处理。
     @Override
-    public void afterPropertiesSet() throws Exception {
+    public void afterPropertiesSet()  {
         //没有配置独立的线程池，又打开了异步处理开关
         if (eventProperties.isAsyncEnable()) {
             try {
