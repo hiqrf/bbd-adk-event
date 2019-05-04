@@ -18,7 +18,7 @@
         </dependency>
   # 2：配置
   
-      请在application.properties中至少配置bbd.adk.event.enabel=true，其他配置请参考:EventProperties类
+      请在application.properties中至少配置bbd.adk.event.enabel=true，其他配置请参考:[EventProperties类] (https://github.com/hiqrf/bbd-adk-event/blob/master/src/main/java/com/bbd/adk/event/boot/EventProperties.java)
       
    # 3：注入NotifierBus(在容器启动的时候自动创建，无需配置)
    
